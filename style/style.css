@@ -1,0 +1,239 @@
+/* 
+    Nama  : Muhammad Satria Ramadhani
+    NIM   : 2005128
+    Kelas : Ilmu Komputer - KOM-4C2
+*/
+
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+}
+
+a:link, a:visited
+{
+    color: #11754A;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer
+{
+    background-color: #1E5036;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Header styling. */
+header
+{
+    text-align: center;
+}
+
+h1, h2
+{
+    text-align: center;
+}
+
+img
+{
+    margin: 10px;
+    width: 25%;
+}
+
+p
+{
+    text-align: justify;
+    text-indent: 5%;
+}
+
+span
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+video.center
+{  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container
+{
+    padding: 10px;
+}
+
+.detailpage
+{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.end-left
+{
+    background-color: #11754A;
+    color: white;
+    flex: 1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.end-right
+{
+    background-color: #1E5036;
+    color: white;
+    flex: 1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.formcontent
+{
+    border: 1px 1px white;
+}
+
+.formname
+{
+    color: white;
+    font-size: medium;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.input
+{
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+.introduction
+{
+    background: #11754A;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.logo
+{
+    height: auto;
+    max-height: 128px;
+    max-height: 128px;
+    width: auto;
+}
+
+.members
+{
+    background: #1E5036;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.navbar
+{
+    background: #11754A;
+    color: #FFFFFF;
+    overflow: hidden;
+    padding: 20px;
+    top: 0;
+    word-spacing: 16px;
+}
+
+.navbar a
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.profile
+{
+    background-color: white;
+    border: 10px #000000;
+    box-shadow: 1px 1px 6px #696969;
+    color: black;
+    max-width: 15%;    
+    padding: 10px;
+    text-align: center;
+}
+
+.profiledetail
+{
+    font-size: medium;
+}
+
+.profiledetail strong
+{
+    color: #11754A;
+}
+
+.profilename
+{
+    color: #11754A;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.profilepict
+{
+    border: 10px #000000;
+    box-shadow: 5px 5px 10px #696969;
+    color: black;
+    width: 30%;
+}
+
+.split
+{
+    align-items: stretch;
+    display: flex;
+    gap: 1%;
+}
+
+/* Submit button styling. */
+.submit
+{
+    background: white;
+    color: #1E5036;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+}
